@@ -4,7 +4,10 @@
 <hr>
 
 
-![hash-function-in-data-structure](https://user-images.githubusercontent.com/79526438/208428561-eff3c94f-7332-43e6-ba58-c5b32bb62cca.png)
+![HashTable](https://user-images.githubusercontent.com/79526438/209135864-9c1bc49a-abe0-4aeb-9d36-0fdc393c38c6.png) 
+
+
+In hashing there is a hash function that maps keys to some values. But these hashing function may lead to collision that is two or more keys are mapped to same value. <b> Chain hashing </b> avoids collision. The idea is to make each cell of hash table point to a linked list of records that have same hash function value.
 
 
 <hr>
